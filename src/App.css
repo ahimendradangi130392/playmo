@@ -1,0 +1,567 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+@font-face {
+  font-family: "crsl-arches";
+  src: url(./assets/CRSL-Arches-Regular.otf) format("truetype");
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+img {
+  width: 100%;
+}
+
+p,
+li,
+button {
+  font-family: 'Poppins';
+}
+
+.header-logo {
+  width: 50px;
+  margin-top: 10px;
+}
+
+.top-header nav {
+  box-shadow: none;
+}
+
+.footer-logo img {
+  max-width: 200px;
+}
+
+.img-section img {
+  max-width: 230px;
+}
+
+.img-section {
+  width: 100%;
+  text-align: center;
+}
+
+.top-header button,
+ul li span.css-10hburv-MuiTypography-root {
+  text-transform: capitalize;
+  font-family: 'Poppins';
+  color: #855472;
+  /* font-weight: 700; */
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.join-btn {
+  font-family: 'Poppins' !important;
+  background-color: #855472 !important;
+  text-transform: capitalize !important;
+}
+
+.contact-us button:hover {
+  background-color: transparent;
+  color: #855472;
+  padding: 10px 8px;
+  font-weight: normal;
+  /* font-weight: 700; */
+  font-family: 'Poppins';
+  text-transform: capitalize;
+  font-size: 14px;
+}
+
+.contact-us button {
+  background-color: transparent;
+  color: #855472;
+  padding: 10px 8px;
+  /* font-weight: 700; */
+  font-weight: normal;
+  font-family: 'Poppins';
+  text-transform: capitalize;
+  font-size: 14px;
+}
+
+.img-how-it-work {
+  background-color: #e9b3a3;
+  border-radius: 0 50px 0 0;
+  height: 251px;
+  overflow: hidden;
+}
+
+.img-how-it-work img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.sign-Up-btn button {
+  background: #1a1b1f;
+  color: #fff;
+  border: 0px;
+  padding: 10px 24px;
+}
+
+.sign-Up-btn {
+  position: relative;
+  padding-left: 20px;
+  margin-left: 15px;
+}
+
+.sign-Up-btn:after {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 24px;
+  background-color: #ddd;
+  left: 0;
+  top: 8px;
+}
+
+.show-mobile {
+  display: none;
+}
+
+h6.MuiTypography-root.MuiTypography-h6 {
+  text-align: center;
+}
+
+.container-fluid {
+  max-width: 1024px;
+  padding: 10px 20px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.container {
+  max-width: 940px;
+  padding: 10px 20px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.subtitle {
+  /* font-family: 'crsl-arches'; */
+  font-family: 'Poppins';
+  text-align: center;
+  color: #865473;
+  font-size: 30px;
+  font-weight: bold !important;
+}
+
+.playmo-section {
+  padding-left: 30px;
+}
+
+.playmo-section .doorstep {
+  color: #865473;
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 24px;
+  position: relative;
+}
+
+.doorstep:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  width: 40px;
+  height: 50px;
+  background: #e4908b;
+  opacity: 60%;
+  border-radius: 10px;
+  top: -30px;
+}
+
+.playmo-section .playdates {
+  font-weight: 500;
+  color: black;
+  margin-bottom: 24px;
+  font-size: 18px;
+}
+
+.bg-grey {
+  background-color: #f5f7fa;
+  padding: 10px 0;
+}
+
+.section-2 .card img {
+  /* width: 100%; */
+  height: 227px;
+  object-fit: cover;
+  /* width: 100%; */
+  border-radius: 25px 25px;
+}
+
+.section-2 .box p {
+  line-height: 16px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #865473;
+}
+
+.section-fourth .subtitle {
+  font-weight: 400;
+}
+
+.section-2 .card h3 {
+  font-size: 1.5rem;
+  margin: 0;
+  padding: 10px 0px;
+  color: #fff;
+}
+
+.section-2 .card {
+  max-height: 275px;
+  background-color: #865473;
+  text-align: center;
+  border-radius: 0 0 25px 25px;
+  overflow: hidden;
+}
+
+.mobile-header {
+  justify-content: center !important;
+}
+
+.mobile-header a {
+  text-decoration: none;
+  color: #855472;
+  padding: 10px 8px;
+  font-weight: 700;
+  font-family: 'Poppins';
+
+}
+
+.top-header .container .MuiBox-root {
+  gap: 0 10px;
+  align-items: center;
+}
+
+.trust-circle {
+  max-width: 180px;
+}
+
+.section-third .right-side {
+  background-color: #fff;
+  padding: 60px 30px 10px 40px !important;
+}
+
+.section-third {
+  padding: 10px 0;
+  background-color: #ffdad7;
+  margin-top: 20px;
+}
+
+.parents {
+  /* background-color: #ffa49f; */
+  background-color: #855472;
+  color: #fff;
+  font-family: 'crsl-arches';
+  position: absolute;
+  max-width: 280px;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 20px;
+  right: 0;
+  bottom: -40px;
+}
+
+.parents h3 {
+  margin: 0;
+  font-size: 2.25rem;
+  font-weight: 600;
+}
+
+.playmoParents {
+  position: relative;
+  max-width: 400px;
+}
+
+.section-third .playmoParents img {
+  border-radius: 20px;
+  width: 100%;
+  max-width: 400px;
+  max-height: 400px;
+  object-fit: cover;
+
+}
+
+.box-data p {
+  line-height: 16px;
+  font-size: 14px;
+  color: #333;
+  font-weight: 500;
+}
+
+.box-data img {
+  min-height: 180px;
+  object-fit: cover;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.box-data h4 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin: 0;
+  color: #333;
+  font-family: 'Poppins';
+}
+
+/* ***************section-fourth  */
+.section-fourth {
+  padding: 40px 0;
+}
+
+.card h3 {
+  color: #333;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.section-fourth .box p {
+  line-height: 16px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #865473;
+}
+
+.space-l {
+  padding-left: 10px;
+}
+
+/* ******************footer*************** */
+.footer ul li {
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+  color: #1a1b1f;
+  padding: 5px 0;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+
+.footer .copyright p {
+  border-top: 1px solid #e4ebf3;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 14px;
+  color: #333;
+}
+
+.footer li,
+.footer p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.sign-Up-btn button {
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase !important;
+}
+
+@media (min-width: 991px) {
+  .css-1mo60u6-MuiButtonBase-root-MuiIconButton-root {
+    display: none;
+  }
+}
+
+
+
+@media (max-width: 990px) {
+  .trust-circle {
+    max-width: 100%;
+  }
+
+  .playmo-section {
+    padding-left: 15px;
+  }
+
+  .css-1mo60u6-MuiButtonBase-root-MuiIconButton-root,
+  .top-header .MuiIconButton-colorInherit {
+    display: block !important;
+  }
+
+  .css-rntpfg {
+    display: none !important;
+  }
+
+  .css-1r7kz78-MuiModal-root-MuiDrawer-root,
+  .MuiDrawer-modal {
+    display: block !important;
+  }
+
+  .contact-us,
+  .sign-Up-btn {
+    text-align: center;
+    padding-bottom: 15px;
+  }
+
+  .right-side img {
+    min-height: 200px;
+    object-fit: cover;
+  }
+
+}
+
+
+@media (max-width:1000px) {
+
+  .container-fluid,
+  .container {
+    width: auto;
+  }
+
+  .top-header .container {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .main-image {
+    text-align: center;
+    padding: 0 10%;
+  }
+
+  .playmoParents {
+    margin: 0 auto;
+  }
+
+}
+
+.grid-box .css-wg4xta-MuiGrid-root,
+.grid-box .MuiGrid-root.MuiGrid-item {
+  padding: 0 70px 0 0;
+}
+
+@media (max-width:768px) {
+  .space-l {
+    padding-left: 0px;
+  }
+
+  .section-third .right-side {
+    padding: 60px 30px 10px 15px !important;
+  }
+
+  .grid-box .css-wg4xta-MuiGrid-root,
+  .grid-box .MuiGrid-root.MuiGrid-item {
+    padding: 0 15px 30px;
+  }
+
+  .playmo-section {
+    margin-top: 30PX;
+  }
+
+  .img-section {
+    text-align: left;
+  }
+
+  .header-logo {
+    width: 32px;
+  }
+
+  .container {
+    /* max-width: 560px; */
+    width: auto;
+  }
+
+  .main-image {
+    text-align: center;
+    padding: 0 40px;
+  }
+
+  .playmo-section h3 {
+    text-align: left;
+  }
+
+  .playmo-section {
+    text-align: left;
+  }
+
+  .section-fourth .box {
+    padding: 0 30px;
+  }
+
+  .footer img {
+    width: 200px;
+  }
+
+  .footer .css-1ld3b9g-MuiGrid-root>.MuiGrid-item {
+    text-align: center;
+  }
+
+  .footer h4,
+  .footer li {
+    text-align: center;
+  }
+
+  .section-third .right-side {
+    margin-top: 50px;
+  }
+
+  .playmo-section {
+    padding: 0 30px;
+  }
+
+  .copyright p {
+    padding: 10px 25px 0;
+  }
+
+  .sign-Up-btn {
+    margin-left: 0px;
+  }
+
+  .trust-circle {
+    padding-left: 15px;
+  }
+}
+
+@media (max-width:600px) {
+  .des-show {
+    display: none;
+  }
+
+  .show-mobile {
+    display: block;
+    padding-top: 10px;
+  }
+
+  .footer-logo {
+    text-align: center;
+  }
+}
+
+@media (max-width:467px) {
+  .section-third .right-side {
+    padding: 60px 30px 10px 30px !important;
+  }
+
+  .trust-circle {
+    padding-left: 0px;
+  }
+
+  .des-show {
+    display: none;
+  }
+
+  .section-2 .container {
+    padding: 10px 30px;
+  }
+
+  .main-image {
+    text-align: center;
+    padding: 0 20px;
+  }
+
+  .section-third .right-side {
+    background-color: #fff;
+    padding: 20px 10px 10px 10px !important;
+  }
+}
