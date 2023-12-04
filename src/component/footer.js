@@ -27,7 +27,7 @@ const Footer =()=>{
                                 <li><a>Blog post name list goes here</a></li>
                                 <li><a>Blog post name list goes here</a></li>
                                 <li><a>Blog post name list goes here</a></li>
-                                <li><a>See all resources >  </a></li>
+                                <li><a>See all resources &gt;  </a></li>
                             </ul>
                         </div>
                     </Grid>

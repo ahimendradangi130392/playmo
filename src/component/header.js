@@ -2,7 +2,6 @@ import * as React from 'react';
 import PropTypes from 'prop-types';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
-import CssBaseline from '@mui/material/CssBaseline';
 import Divider from '@mui/material/Divider';
 import Drawer from '@mui/material/Drawer';
 import IconButton from '@mui/material/IconButton';
@@ -15,7 +14,7 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import Logo from '../assets/logo.jpg';
-import { styled, alpha } from '@mui/material/styles';
+import { styled } from '@mui/material/styles';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
@@ -63,7 +62,7 @@ function Header(props) {
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: 'left' }}>
       <Typography variant="h6" sx={{textAlign: 'left', my: 2 }}>
-      <img src={Logo} className="header-logo"  />
+      <img src={Logo} className="header-logo" alt="img not found" />
       </Typography>
       <Divider />
       <List>
@@ -96,7 +95,6 @@ function Header(props) {
 
   return (
     <Box sx={{ display: 'flex'}} className="top-header">
-      {/* <CssBaseline /> */}
       <AppBar component="nav" style={{backgroundColor:"#fff"}}>
         <div className='container' >
         <Toolbar>
@@ -106,7 +104,7 @@ function Header(props) {
             component="div"
             sx={{ flexGrow: 1, display: {  sm: 'block' },textAlign: 'left' }}
           >
-            <img src={Logo} className="header-logo"  />
+            <img src={Logo} className="header-logo" alt="img not found" />
           </Typography>
           <Box sx={{ display: { xs: 'none', sm: 'flex' } }}>
             {navItems.map((item) => (
