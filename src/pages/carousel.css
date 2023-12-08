@@ -105,3 +105,27 @@
         max-width: 215px;
     }
 }
+
+@media (max-width:768px) {
+    .thought-text p {
+        -webkit-line-clamp: 3;
+    }
+}
+
+@media (max-width:600px) {
+    .thought-text {
+        max-width: 135px;
+    }
+
+    .thought-text p {
+        -webkit-line-clamp: 3;
+    }
+
+    .thought-text h5 {
+        font-size: 12px;
+    }
+
+    .thought-text h5 {
+        font-size: 14px;
+    }
+}
