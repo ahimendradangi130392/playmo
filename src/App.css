@@ -38,6 +38,16 @@ html {
   scroll-behavior: smooth;
 }
 
+#for-kids .subtitle {
+  margin-top: 65px;
+
+}
+
+#for-parents .subtitle,
+#how-it-works .container {
+  margin-top: 30px;
+}
+
 img {
   width: 100%;
 }
@@ -162,7 +172,7 @@ h6.MuiTypography-root.MuiTypography-h6 {
 }
 
 .container .MuiPaper-root {
-  padding: 10px 20px;
+  padding: 0px 20px;
 }
 
 .subtitle span {
@@ -412,7 +422,7 @@ h6.MuiTypography-root.MuiTypography-h6 {
 }
 
 .section-five {
-  padding: 70px 0 70px;
+  padding: 40px 0 40px;
 }
 
 .section-five .join-section h4 {
