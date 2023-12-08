@@ -1,0 +1,107 @@
+:root {
+    --lightgray-color: #6D9EA2;
+    --lightYellow-color: #E8D052;
+    /* --lightYellow-color: #FDCE6B; */
+    --lightPink-color: #E4908B;
+    --lightbagni-color: #865473;
+    --lightblack-color: #000;
+}
+
+.carousel-item {
+    position: relative;
+    display: flex;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.carousel-item .adventure {
+    max-width: 250px;
+}
+
+.slider-Carousel {
+    margin-top: 40px;
+}
+
+.slider-Carousel button.react-multiple-carousel__arrow:hover,
+.slider-Carousel button.react-multiple-carousel__arrow {
+    background-color: var(--lightPink-color);
+
+}
+
+.thought {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 300px !important;
+}
+
+.thought-text {
+    position: absolute;
+    max-width: 215px;
+    /* top: 40px;
+    left: 27px;
+    right: 25px; */
+}
+
+.thought-text h6 {
+    font-size: 12px;
+    margin: 0;
+    color: #fff;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.thought-text h5 {
+    color: #fff;
+    margin: 0;
+    font-size: 16px;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.thought-text p .fa-quote-right {
+
+    margin-left: 10px;
+}
+
+.thought-text p .fa-quote-left {
+    margin-right: 10px;
+}
+
+.thought-text p {
+    color: #fff;
+    font-size: 12px;
+    line-height: 14px;
+    /* width: 300px; */
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+@media (max-width:991px) {
+    .carousel-item {
+        flex-wrap: wrap;
+    }
+
+    .thought {
+        width: 50%;
+    }
+
+    .carousel-item .adventure {
+        max-width: 250px;
+    }
+
+    .carousel-item .adventure.person {
+        order: 2;
+    }
+
+    .thought-text {
+        max-width: 215px;
+    }
+}
