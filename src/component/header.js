@@ -13,7 +13,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
-import Logo from '../assets/logo.jpg';
+import Logo from '../assets/fullogo.png';
 import { styled } from '@mui/material/styles';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
@@ -71,7 +71,6 @@ function Header(props) {
             <ListItemButton sx={{ textAlign: 'center' }} className='mobile-header'>
              <a href={`#${item.link}`}> <ListItemText primary={item.name} /></a>
               
-              {/* how-it-works */}
             </ListItemButton>
           </ListItem>
         ))}
@@ -94,15 +93,15 @@ function Header(props) {
   const container = window !== undefined ? () => window().document.body : undefined;
 
   return (
-    <Box sx={{ display: 'flex'}} className="top-header">
+    <Box sx={{ display: 'flex'}} className="container top-header">
       <AppBar component="nav" style={{backgroundColor:"#fff"}}>
-        <div className='container' >
-        <Toolbar>
+        <div className='container header' >
+        <Toolbar sx={{padding:'0'}}>
           
           <Typography
-            variant="h6"
+            variant=""
             component="div"
-            sx={{ flexGrow: 1, display: {  sm: 'block' },textAlign: 'left' }}
+            sx={{  display: {  sm: 'block' },textAlign: 'left' }}
           >
             <img src={Logo} className="header-logo" alt="img not found" />
           </Typography>

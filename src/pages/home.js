@@ -1,35 +1,40 @@
 import { Button, Grid } from "@mui/material"
-import Banner from '../assets/banner.png'
-import fullogo from '../assets/fullogo.png'
-import playPeers2 from '../assets/44.png'
-import playPeers3 from '../assets/45.png'
-import playPeers from '../assets/47.png'
+import Banner from '../assets/newImages/banner.png'
+import playPeers  from '../assets/newImages/PlaywithPeers.png'
+import playPeers2  from '../assets/newImages/PurposeDrivenPlay.png'
+import  playPeers3 from '../assets/newImages/ScreenPlayFun.png'
 import playmoParents from '../assets/playmo-parents.jpg'
-import playmoParentsImg from '../assets/playmo-parents-2.jpg'
-import worksImg1 from '../assets/Layer14.png'
-import worksImg4 from '../assets/Layer15.png'
-import worksImg2 from '../assets/Layer12.png'
-import worksImg3 from '../assets/Layer13.png'
+import playmoParentsImg from '../assets/newImages/Trust.png'
+import worksImg1 from '../assets/newImages/Effortlessly.png'
+import worksImg4 from '../assets/newImages/Planning.png'
+import worksImg2 from '../assets/newImages/Premier.png'
+import worksImg3 from '../assets/newImages/Revel.png'
+import Adventure from '../assets/newImages/adventure.png'
+import CarouselSlider from "./carousel"
+
 
 
 const Home =()=>{
-    return(<>
-  <div className="bg-grey">
+    return(<div className="bg-grey">
+  <div className="">
     <div className="container-fluid">
         <Grid container spacing={2} sx={{alignItems:'center'}}>
+        <Grid item xs={12} md={6} sm={6} >
+                <div className="playmo-section">
+                    <p className="doorstep">Fun Experiences,
+                    <br/>
+                    for your kids, </p>
+                    <p className="playdates">
+                    Curated learning experiences inspired from the best across the world, brought to your home in power-packed playdates.
+                        </p>
+                    <div>
+                    <Button className="join-btn" variant="contained">Join the Waitlist  </Button>
+                    </div>
+                </div>
+            </Grid>
             <Grid item xs={12} md={6} sm={6}>
                 <div className="main-image">
                 <img src={Banner} style={{width:'100%'}} alt="img not found" />
-                </div>
-            </Grid>
-            <Grid item xs={12} md={6} sm={6} >
-                <div className="playmo-section">
-                <div className="img-section"><img src={fullogo} alt="img not found"/></div>
-                    <p className="doorstep">Fun experiences for your kids, delivered to your doorstep!</p>
-                    <p className="playdates">Curated learning experiences inspired from the best across the world, brought to your home in power-packed playdates.</p>
-                    <div>
-                    <Button className="join-btn" variant="contained">Join The Waitlist </Button>
-                    </div>
                 </div>
             </Grid>
         </Grid>
@@ -39,70 +44,74 @@ const Home =()=>{
   {/* ***************************** */}
   <div className="section-2" id="for-kids">
     <div className="container-fluid">
-        <h2 className="subtitle">why playmo for kids?</h2>
+        <div className="subtitle">
+        <span >why playmo for kids?</span>
+        </div>
         <Grid container spacing={8} >
             <Grid item xs={12} md={4} sm={4} >
-                <div className="box">
-                    <div className="card"> 
-                        <h3>Play with Peers</h3>
+                <div className="box lg-blue ">
+                    <div className="card bg-color-for-img lg-blue "> 
                         <img src={playPeers} alt="img not found"/>
                     </div>
+                        <h3>Play with Peers</h3>
                     <p>We want kids to find their voice, learn, & make the most of their childhood our small, intimate playgroups of 4 to 5 kids, enable just that</p>
                 </div>
                 </Grid>
                 <Grid item xs={12} md={4} sm={4} >
-                <div className="box">
-                    <div className="card"> 
-                        <h3>Purpose Driven Play</h3>
+                <div className="box lg-yellow">
+                    <div className="card bg-color-for-img lg-yellow "> 
                         <img src={playPeers2} alt="img not found"/>
                     </div>
+                        <h3>Purpose Driven Play</h3>
                     <p>Waldorf, Montessori, or Reggio? Our activity curriculum is inspired from the best to give your child a well rounded learning experience.</p>
                 </div>
                 </Grid>
                 <Grid item xs={12} md={4} sm={4} >
-                <div className="box">
-                    <div className="card"> 
-                        <h3>Screen Play Fun</h3>
+                <div className="box lg-pink ">
+                    <div className="card bg-color-for-img lg-pink "> 
                         <img src={playPeers3} alt="img not found"/>
                     </div>
+                        <h3>Screen Play Fun</h3>
                     <p>Waldorf, Montessori, or Reggio? Our activity curriculum is inspired from the best to give your child a well rounded learning experience.</p>
                 </div>
                 </Grid>
         </Grid>
     </div>
-
   </div>
   {/* ******************** */}
   <div className="section-third" id="for-parents">
+    <div className="subtitle">
+            <span >Why playmo for Parents?</span>
+    </div>
     <div className="container">
         <div>
             <Grid container spacing={2} sx={{alignItems:'center'}}>
                         <Grid item  xs={12} md={6} sm={12} >
                             <div className="playmoParents"><img src={playmoParents} style={{width:'100%'}} alt="img not found"/>
-                            <div className="parents"><h3>why playmo for parents ?</h3></div></div>
+                            </div>
                         </Grid>
                         <Grid item  xs={12} md={6} sm={12} >
                         <div  className="right-side">
-                        <Grid container spacing={1} sx={{alignItems:'center'}}>
+                        <Grid container spacing={2} sx={{alignItems:'top'}}>
                                 <Grid item xs={12} md={6} sm={8} className="box-data">
                                     <div className="trust-circle" >
-                                        <h4>Forge Your Trust Circle:</h4>
+                                        <h4 className="text-lg-sky">Forge Your Trust Circle:</h4>
                                         <div className="show-mobile"><img src={playmoParentsImg} alt="img not found"/></div>
                                         <p>Connect with parents that you share your values and parenting style, so parenting can be guilt-free and fun</p>
                                     </div>
                                 </Grid>
-                                <Grid item xs={12} md={6} sm={4} className="box-data">
-                            <div className="des-show"> <img src={playmoParentsImg} alt="img not found"/></div>
+                                <Grid item xs={12} md={6} sm={4} className="box-data ">
+                            <div className="des-show space-l"> <img src={playmoParentsImg} alt="img not found"/></div>
                                 </Grid>
                         </Grid>
-                        <Grid container spacing={1} sx={{alignItems:'center',mt:5}}>
+                        <Grid container spacing={2} sx={{alignItems:'top',mt:5}}>
                                 <Grid item xs={12} md={6} sm={4}   className="box-data">
                                 <div className="des-show"> <img src={worksImg1} alt="img not found"/></div>
 
                                 </Grid>
                                 <Grid item xs={12} md={6} sm={8} className="box-data">
                                     <div className="trust-circle space-l">
-                                        <h4>Effortlessly Accommodating</h4>
+                                        <h4 className="text-lg-pink"> Effortlessly Accommodating</h4>
                                         <div className="show-mobile"><img src={worksImg1} alt="img not found"/></div>
                                         <p>We build a seamless extension of your world, crafting safe and enjoyable play experiences for your kids while you do your thing!</p>
                                     </div>
@@ -117,33 +126,34 @@ const Home =()=>{
   {/* ********************* */}
   <div className="section-fourth" id="how-it-works">
     <div className="container">
-        <h2 className="subtitle">HOW IT WORKS?</h2>
+        <div className="subtitle"><span className="">How it works?</span></div>
         <Grid container  className="grid-box" >
             <Grid item xs={12} md={4} sm={4} >
-                <div className="box">
-                    <div className="card"> 
-                        <div className="img-how-it-work"><img src={worksImg4} alt="img not found"/></div>
-                        <h3>Set Up: Effortless Playdate Planning</h3>
-                    </div>
-                    <p>Sync your schedule, set preferences, and let us curate your child’s ideal playgroup. Simple steps to the perfect playmate match!</p>
-                </div>
-                </Grid>
-                <Grid item  xs={12} md={4} sm={4}>
-                <div className="box">
+                <div className="box box1">
                     <div className="card"> 
                         <div className="img-how-it-work"><img src={worksImg2} alt="img not found"/></div>
                         <h3>Set Up: Effortless Playdate Planning</h3>
                     </div>
-                    <p>Sync your schedule, set preferences, and let us curate your child’s ideal playgroup. Simple steps to the perfect playmate match!</p>
+                    <p>Sync your schedule, set preferences, and let us curate your child’s ideal playgroup. Simple steps to the perfect playmate match!
+                        </p>
                 </div>
                 </Grid>
                 <Grid item  xs={12} md={4} sm={4}>
-                <div className="box">
+                <div className="box box2">
                     <div className="card"> 
                         <div className="img-how-it-work"><img src={worksImg3} alt="img not found"/></div>
-                        <h3>Set Up: Effortless Playdate Planning</h3>
+                        <h3>Execute: Premier Play Curated for You</h3>
                     </div>
-                    <p>Sync your schedule, set preferences, and let us curate your child’s ideal playgroup. Simple steps to the perfect playmate match!</p>
+                    <p>Wide range of activities mapped perfectly to development aspects! Our facilitators work the magic </p>
+                </div>
+                </Grid>
+                <Grid item  xs={12} md={4} sm={4}>
+                <div className="box box3">
+                    <div className="card"> 
+                        <div className="img-how-it-work"><img src={worksImg4} alt="img not found"/></div>
+                        <h3>Revel: Home is Where the Play Is</h3>
+                    </div>
+                    <p>Relax and watch the joy unfold. Playmo turns your home into an oasis of fun learning, where your child and their new buddies flourish!</p>
                 </div>
                 </Grid>
               
@@ -151,7 +161,20 @@ const Home =()=>{
     </div>
 
   </div>
-    </>
+  {/* ***************************************** */}
+  <div className="section-five">
+    <div className="container">
+       <div className="join-section">
+       <h4>We are so excited for you <span className="join-circle">to join </span>our fun playdates</h4>
+        {/* <Button className="joinbtn">Join the Waitlist </Button> */}
+        <Button className="join-btn" variant="contained">Join the Waitlist  </Button>
+        <div className="slider-Carousel">
+            <CarouselSlider/>
+        </div>
+       </div>
+    </div>
+  </div>
+    </div>
     )
 }
 export default Home
