@@ -14,32 +14,76 @@
   --lightblack-color: #000;
 }
 
-.bg-grey.footer {
-  background-image: url(./assets/newImages/footer-img.png);
-  width: 100%;
-  height: 100%;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: 0 100%;
-  /* padding: 250px 0 */
+.section-five {
+  position: relative;
 }
 
-.section-five {
-  background-image: url(./assets/newImages/first-img.png);
+.section-five:after {
+  background-image: url(./assets/newImages/ring.png);
+  position: absolute;
+  content: "";
+  transform: rotate(180deg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  top: 0;
+  background-position: right top;
+  width: 133px;
+  right: 0;
+  height: 144px;
+}
+
+.footer {
+  position: relative;
+}
+
+.footer:after {
+  background-image: url(./assets/newImages/9.png);
+  position: absolute;
+  content: "";
+  transform: rotate(180deg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  top: 0;
+  background-position: right top;
+  width: 79px;
+  right: 0;
+  height: 113px;
+}
+
+.bg-grey {
+  background-image: url(./assets/newImages/main-bg.png);
   width: 100%;
   height: 100%;
   background-repeat: no-repeat;
+  background-position: 0 -57px;
   background-size: 100%;
-  background-position: 0 60%;
 }
 
 .bg-image {
-  background-image: url(./assets/newImages/PLAYMOLANDING.png);
+  background-image: url(./assets/newImages/bannerimg.png);
   width: 100%;
   height: 100%;
   background-repeat: no-repeat;
   background-size: 100%;
-  padding: 228px 0 179px;
+  padding: 160px 0 160px;
+  background-position: 1px -90px;
+  min-height: 532px;
+}
+
+.left-top-img {
+  position: absolute !important;
+  width: 114px;
+  left: 87px;
+  top: 6px;
+  height: 66px !important;
+}
+
+.right-top-img {
+  position: absolute !important;
+  width: 114px;
+  right: -4px;
+  top: -3px;
+  height: 66px !important;
 }
 
 .text-lg-sky {
@@ -73,39 +117,33 @@ html {
 .bg-img-first {
   position: relative;
   z-index: 99;
-}
-
-.bg-image:after {
-  background-image: url(./assets/newImages/first-img.png);
-  width: 100%;
-  content: "";
-  position: absolute;
-  background-position: 9% 31%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-bottom: 100px;
-  height: 100%;
-  top: 0;
-  z-index: 0;
+  padding: 20px 0;
 }
 
 #for-kids {
-  background-image: url(./assets/newImages/bg-imgs-first.png);
-  /* background-image: url(./assets/newImages/first-bg.png); */
-  background-position: left bottom;
-  background-repeat: no-repeat;
-  background-size: cover;
-
+  margin-top: 60px;
   padding-bottom: 100px;
 }
 
 #how-it-works {
+  position: relative;
+  padding-bottom: 100px;
+  padding-top: 50px;
+}
 
-  background-image: url(./assets/newImages/last-bg-img.png);
+#how-it-works:after {
+  background-image: url(./assets/newImages/right-side-ring.png);
   background-position: left -134%;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: 100px;
+
+  content: "";
+  position: absolute;
+  top: 68px;
+  right: 0;
+  width: 135px;
+  height: 153px;
+
 }
 
 #for-kids .subtitle {
@@ -349,7 +387,7 @@ h6.MuiTypography-root.MuiTypography-h6 {
   border-radius: 20px;
   border: 20px;
   left: 10px;
-  right: 10px;
+  right: 20px;
 }
 
 
@@ -418,8 +456,7 @@ h6.MuiTypography-root.MuiTypography-h6 {
 }
 
 .section-third {
-  padding: 20px 0 20px;
-  /* margin-top: 60px; */
+  padding: 10px 0 20px;
 }
 
 .parents h3 {
@@ -509,7 +546,7 @@ h6.MuiTypography-root.MuiTypography-h6 {
 }
 
 .section-five {
-  padding: 40px 0 40px;
+  padding: 0px 0 40px;
 }
 
 .section-five .join-section h4 {
@@ -611,7 +648,27 @@ h6.MuiTypography-root.MuiTypography-h6 {
   text-transform: uppercase !important;
 }
 
+.section-third .subtitle {
+  padding-bottom: 50px;
+
+}
+
 @media (min-width:1440px) {
+  .bg-image {
+    padding: 228px 0 260px;
+    height: 560px;
+    /* height: 560px; */
+  }
+
+  .subtitle span {
+    background-size: 221px;
+  }
+
+  .section-third {
+    margin-top: 104px;
+  }
+
+
   .delivered {
     font-size: 2.688rem;
   }
@@ -630,6 +687,8 @@ h6.MuiTypography-root.MuiTypography-h6 {
 
   .card h3 {
     font-size: 1.875rem;
+    /* font-size: 2.5rem; */
+    max-width: 300px;
   }
 
   .box-data h4 {
@@ -638,15 +697,17 @@ h6.MuiTypography-root.MuiTypography-h6 {
   }
 
   .section-2 h3 {
-    font-size: 2.2rem;
+    font-size: 2.7rem;
+    padding-bottom: 15px;
   }
 
   .subtitle {
-    font-size: 2.5rem;
+    /* font-size: 2.5rem; */
+    font-size: 2.8rem;
   }
 
   .section-2 .card img {
-    height: 310px;
+    height: 280px;
   }
 
   .section-2 .card {
@@ -685,7 +746,15 @@ h6.MuiTypography-root.MuiTypography-h6 {
 
 @media (max-width: 990px) {
   .bg-image {
-    padding: 90px 0;
+    background-position: 18px -25px;
+  }
+
+  .bg-grey {
+    background-size: cover;
+  }
+
+  .bg-image {
+    padding: 20px 0;
   }
 
   .container-fluid {
@@ -765,8 +834,22 @@ h6.MuiTypography-root.MuiTypography-h6 {
 }
 
 @media (max-width:768px) {
+
+  #for-kids .subtitle,
+  #for-kids {
+    margin-top: 20px;
+  }
+
+  .subtitle span {
+    background-size: 150px;
+  }
+
   .thought.thought-2 {
     margin-left: 0px !important;
+  }
+
+  .section-five:after {
+    content: none;
   }
 
   .adventure.person {
@@ -867,7 +950,13 @@ h6.MuiTypography-root.MuiTypography-h6 {
   }
 }
 
+.space {
+  padding: 0 15px;
+}
+
 @media (max-width:600px) {
+
+
   .header .MuiIconButton-root p {
     margin: 0;
   }
@@ -908,8 +997,9 @@ h6.MuiTypography-root.MuiTypography-h6 {
   }
 
   .subtitle span {
-    background-size: 117px;
+    background-size: 125px;
   }
+
 
   .section-third .right-side {
     padding: 60px 30px 10px 30px !important;
@@ -934,5 +1024,9 @@ h6.MuiTypography-root.MuiTypography-h6 {
 
   .section-third .right-side {
     padding: 20px 10px 10px 10px !important;
+  }
+
+  .bg-grey {
+    background-image: none;
   }
 }

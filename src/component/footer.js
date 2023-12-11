@@ -5,7 +5,7 @@ import faceBook from '../assets/newImages/facebook.png'
 import Linkdin from '../assets/newImages/linkedin.png'
 const Footer =()=>{
     return(<>
-    <div className="bg-grey footer">
+    <div className="footer">
         <div className='socila-media'><span className='bg-lg-sky'><a>
                                 <img src={Instagram} alt='Instagram' />
                                     </a></span>
