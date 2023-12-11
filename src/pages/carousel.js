@@ -33,7 +33,7 @@ const  CarouselSlider=()=>{
     return(
     <Carousel responsive={responsive}
     autoPlaySpeed={3000}
-    autoPlay={false}
+    autoPlay={true}
     infinite={true}
     >
         <div>
