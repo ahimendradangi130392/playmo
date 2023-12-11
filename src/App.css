@@ -903,6 +903,14 @@ h6.MuiTypography-root.MuiTypography-h6 {
 }
 
 @media (max-width:467px) {
+  .subtitle {
+    font-size: 1.5rem;
+  }
+
+  .subtitle span {
+    background-size: 117px;
+  }
+
   .section-third .right-side {
     padding: 60px 30px 10px 30px !important;
   }
