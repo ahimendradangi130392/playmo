@@ -10,7 +10,6 @@ import Adventure3 from '../assets/newImages/Adventure3.png'
 const  CarouselSlider=()=>{
     const responsive = {
         superLargeDesktop: {
-          // the naming can be any, depends on you.
           breakpoint: { max: 4000, min: 3000 },
           items: 1
         },
@@ -38,7 +37,7 @@ const  CarouselSlider=()=>{
                 <div className="adventure person">
                         <img src={Adventure } alt="adventure "/>
                 </div>
-                <div className="adventure thought">
+                <div className="adventure thought thought-1">
                         <img src={thought1 } alt="thought1"/>
                         <div className="thought-text">
                                 <h5>Stuti & Kartik</h5>
@@ -49,7 +48,7 @@ const  CarouselSlider=()=>{
                         </p>
                         </div>
                 </div>
-                <div className="adventure thought">
+                <div className="adventure thought thought-2">
                         <img src={thought2 } alt="thought2"/>
                         <div className="thought-text">
                                 <h5>Suchismitaa</h5>
@@ -64,18 +63,18 @@ const  CarouselSlider=()=>{
                 <div className="adventure person">
                         <img src={Adventure2 } alt="Adventure2 "/>
                 </div>
-                <div className="adventure thought">
+                <div className="adventure thought thought-2">
                         <img src={thought1 } alt="thought1"/>
                         <div className="thought-text">
                                 <h5>Stuti & Kartik</h5>
                                 <h6>Parents of Kashini, 4</h6>
                         <p><span class="fa fa-quote-left"></span>A big thank you for organizing such 
                         a fun session - it was the highlight of Kashini's first
-                        ever birthday party! The kids enjoyed the kits a lot, they are a perfect mix of fun and learning<span class="fa fa-quote-right"></span>
+                        ever birthday party! The kids enjoyed the <span class="fa fa-quote-right"></span>
                         </p>
                         </div>
                 </div>
-                <div className="adventure thought ">
+                <div className="adventure thought thought-1 ">
                         <img src={thought2 } alt="thought2"/>
                         <div className="thought-text">
                                 <h5>Suchismitaa</h5>
@@ -91,7 +90,7 @@ const  CarouselSlider=()=>{
                 <div className="adventure person">
                         <img src={Adventure3 } alt="Adventure3 "/>
                 </div>
-                <div className="adventure thought">
+                <div className="adventure thought thought-1">
                         <img src={thought2 } alt="thought2"/>
                         <div className="thought-text">
                                 <h5>Suchismitaa</h5>
@@ -99,7 +98,7 @@ const  CarouselSlider=()=>{
                                 <p><span class="fa fa-quote-left"></span>This is new and of great value!<span class="fa fa-quote-right"></span></p>
                         </div>
                 </div>  
-                <div className="adventure thought">
+                <div className="adventure thought thought-2">
                         <img src={thought1 } alt="thought1"/>
                         <div className="thought-text">
                                 <h5>Stuti & Kartik</h5>

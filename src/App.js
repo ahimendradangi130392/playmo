@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
      <Header/>
-     <div style={{paddingTop:'80px'}}><Home/></div>
+     <div style={{paddingTop:'0px'}}><Home/></div>
      <Footer/>
     </div>
   );
