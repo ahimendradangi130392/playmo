@@ -15,15 +15,17 @@ import CarouselSlider from "./carousel"
 
 
 const Home =()=>{
-    return(<div className="bg-grey">
-  <div className="">
-    <div className="container-fluid">
+    return(<div className="bg-grey ">
+  <div className="bg-image">
+   <div className="bg-img-first">
+   <div className="container-fluid">
         <Grid container spacing={2} sx={{alignItems:'center'}}>
         <Grid item xs={12} md={6} sm={6} >
                 <div className="playmo-section">
                     <p className="doorstep">Fun Experiences,
                     <br/>
                     for your kids, </p>
+                    <h3 className="delivered">Delivered to your doorstep!</h3>
                     <p className="playdates">
                     Curated learning experiences inspired from the best across the world, brought to your home in power-packed playdates.
                         </p>
@@ -34,12 +36,13 @@ const Home =()=>{
             </Grid>
             <Grid item xs={12} md={6} sm={6}>
                 <div className="main-image">
-                <img src={Banner} style={{width:'100%'}} alt="img not found" />
+                {/* <img src={Banner} style={{width:'100%'}} alt="img not found" /> */}
                 </div>
             </Grid>
         </Grid>
        
     </div>
+   </div>
   </div>
   {/* ***************************** */}
   <div className="section-2" id="for-kids">

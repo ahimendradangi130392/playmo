@@ -36,6 +36,15 @@
     max-width: 300px !important;
 }
 
+.thought.thought-2 {
+    max-width: 260px !important;
+    margin-left: -27px;
+}
+
+.adventure.person {
+    padding-top: 200px;
+}
+
 .thought-text {
     position: absolute;
     max-width: 215px;
@@ -103,6 +112,10 @@
 
     .thought-text {
         max-width: 215px;
+    }
+
+    .thought.thought-2 {
+        margin-left: 0;
     }
 }
 

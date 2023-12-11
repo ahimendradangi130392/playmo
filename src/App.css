@@ -14,6 +14,34 @@
   --lightblack-color: #000;
 }
 
+.bg-grey.footer {
+  background-image: url(./assets/newImages/footer-img.png);
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 0 100%;
+  /* padding: 250px 0 */
+}
+
+.section-five {
+  background-image: url(./assets/newImages/first-img.png);
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 0 60%;
+}
+
+.bg-image {
+  background-image: url(./assets/newImages/PLAYMOLANDING.png);
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 228px 0 179px;
+}
+
 .text-lg-sky {
   color: var(--lightgray-color);
 }
@@ -36,6 +64,48 @@
 
 html {
   scroll-behavior: smooth;
+}
+
+.bg-image {
+  position: relative;
+}
+
+.bg-img-first {
+  position: relative;
+  z-index: 99;
+}
+
+.bg-image:after {
+  background-image: url(./assets/newImages/first-img.png);
+  width: 100%;
+  content: "";
+  position: absolute;
+  background-position: 9% 31%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 100px;
+  height: 100%;
+  top: 0;
+  z-index: 0;
+}
+
+#for-kids {
+  background-image: url(./assets/newImages/bg-imgs-first.png);
+  /* background-image: url(./assets/newImages/first-bg.png); */
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  padding-bottom: 100px;
+}
+
+#how-it-works {
+
+  background-image: url(./assets/newImages/last-bg-img.png);
+  background-position: left -134%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 100px;
 }
 
 #for-kids .subtitle {
@@ -91,6 +161,14 @@ ul li span.css-10hburv-MuiTypography-root {
   text-transform: unset !important;
   padding: 5px 25px !important;
   margin-top: 25px !important;
+  font-size: 1.3rem !important;
+}
+
+.delivered {
+  font-size: 2rem;
+  color: var(--lightPink-color);
+  font-weight: 500;
+  margin: 0;
 }
 
 .contact-us button:hover {
@@ -158,17 +236,23 @@ h6.MuiTypography-root.MuiTypography-h6 {
 }
 
 .container-fluid {
+  /* max-width: 1400px; */
   max-width: 1024px;
-  padding: 10px 20px;
+  padding: 10px 0px;
   margin: 0 auto;
   width: 100%;
 }
 
 .container {
   max-width: 1050px;
-  padding: 10px 20px;
+  /* max-width: 1400px; */
+  padding: 10px 0px;
   margin: 0 auto;
   width: 100%;
+}
+
+.container.top-header {
+  padding: 0 0;
 }
 
 .container .MuiPaper-root {
@@ -201,9 +285,10 @@ h6.MuiTypography-root.MuiTypography-h6 {
 .playmo-section .doorstep {
   color: var(--lightgray-color);
   font-weight: 700;
-  font-size: 40px;
+  /* font-size: 4.375rem; */
+  font-size: 2.5rem;
   margin-bottom: 24px;
-  line-height: 45px;
+  line-height: 2.5rem;
 }
 
 .playmo-section .playdates {
@@ -215,8 +300,10 @@ h6.MuiTypography-root.MuiTypography-h6 {
 
 .bg-grey {
   background-color: #f5f7fa;
-  padding: 10px 0px;
+  padding: 0px 0px 10px;
   width: 100%;
+  /* height: 100%; */
+  /* position: relative; */
 }
 
 .section-2 .card img {
@@ -331,7 +418,7 @@ h6.MuiTypography-root.MuiTypography-h6 {
 }
 
 .section-third {
-  padding: 60px 0 20px;
+  padding: 20px 0 20px;
   /* margin-top: 60px; */
 }
 
@@ -440,18 +527,6 @@ h6.MuiTypography-root.MuiTypography-h6 {
   text-align: center;
 }
 
-/* .section-five .join-section button {
-  background-color: var(--lightbagni-color);
-  color: #fff;
-  padding: 5px 20px;
-  border-radius: 5px;
-  font-weight: 500;
-  margin-top: 50px;
-  font-size: 1rem;
-  text-transform: unset;
-  font-family: 'Poppins';
-} */
-
 .adventure {
   max-width: 300px;
   padding: 30px 0px;
@@ -536,15 +611,91 @@ h6.MuiTypography-root.MuiTypography-h6 {
   text-transform: uppercase !important;
 }
 
+@media (min-width:1440px) {
+  .delivered {
+    font-size: 2.688rem;
+  }
+
+  .container-fluid {
+    max-width: 1400px;
+  }
+
+  .container {
+    max-width: 1400px;
+  }
+
+  .playmo-section .playdates {
+    font-size: 1.25rem;
+  }
+
+  .card h3 {
+    font-size: 1.875rem;
+  }
+
+  .box-data h4 {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+  }
+
+  .section-2 h3 {
+    font-size: 2.2rem;
+  }
+
+  .subtitle {
+    font-size: 2.5rem;
+  }
+
+  .section-2 .card img {
+    height: 310px;
+  }
+
+  .section-2 .card {
+    max-height: 294px;
+  }
+
+  .section-2 .box p,
+  .section-fourth .box p,
+  .box-data p {
+    font-size: 1rem;
+    line-height: 1.2rem;
+  }
+
+  .playmoParents {
+    max-width: 650px;
+  }
+
+  .section-third .playmoParents img {
+    max-height: 750px;
+  }
+
+  .playmo-section .doorstep {
+    font-size: 4.375rem;
+    line-height: 4.375rem;
+  }
+}
+
 @media (min-width: 991px) {
   .css-1mo60u6-MuiButtonBase-root-MuiIconButton-root {
     display: none;
   }
+
 }
 
 
 
 @media (max-width: 990px) {
+  .bg-image {
+    padding: 90px 0;
+  }
+
+  .container-fluid {
+    padding: 10px 20px !important;
+  }
+
+  .container {
+    padding: 10px 20px !important;
+  }
+
   .trust-circle {
     max-width: 100%;
   }
@@ -614,6 +765,14 @@ h6.MuiTypography-root.MuiTypography-h6 {
 }
 
 @media (max-width:768px) {
+  .thought.thought-2 {
+    margin-left: 0px !important;
+  }
+
+  .adventure.person {
+    padding-top: 0 !important;
+  }
+
   .section-2 .card img {
     height: auto;
   }
@@ -663,6 +822,7 @@ h6.MuiTypography-root.MuiTypography-h6 {
 
   .playmo-section h3 {
     text-align: left;
+    font-size: 1.5rem;
   }
 
   .playmo-section {
@@ -670,7 +830,7 @@ h6.MuiTypography-root.MuiTypography-h6 {
   }
 
   .section-fourth .box {
-    padding: 0 30px;
+    padding: 0 0px;
   }
 
   .footer .footer-logo img {
@@ -691,7 +851,7 @@ h6.MuiTypography-root.MuiTypography-h6 {
   }
 
   .playmo-section {
-    padding: 0 30px;
+    padding: 2px 0px;
   }
 
   .copyright p {
@@ -708,6 +868,26 @@ h6.MuiTypography-root.MuiTypography-h6 {
 }
 
 @media (max-width:600px) {
+  .header .MuiIconButton-root p {
+    margin: 0;
+  }
+
+  .bg-grey {
+    padding: 40px 0px 10px;
+  }
+
+  .playmo-section .doorstep {
+    font-size: 1.5rem;
+  }
+
+  .playmo-section h3 {
+    max-width: 220px;
+  }
+
+  .bg-image {
+    padding: 0 0;
+  }
+
   .des-show {
     display: none;
   }
