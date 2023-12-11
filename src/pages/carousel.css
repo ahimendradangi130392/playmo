@@ -37,8 +37,16 @@
 }
 
 .thought.thought-2 {
-    max-width: 260px !important;
-    margin-left: -27px;
+    max-width: 290px !important;
+    margin-left: -35px;
+}
+
+.thought.thought-3 {
+    max-width: 240px !important;
+}
+
+.thought.thought-4 {
+    margin-left: -25px;
 }
 
 .adventure.person {
@@ -58,9 +66,11 @@
     margin: 0;
     color: #fff;
     display: -webkit-box;
-    -webkit-line-clamp: 1;
+    -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
+    max-width: 160px;
+    margin: 0 auto;
 }
 
 .thought-text h5 {
@@ -117,6 +127,11 @@
     .thought.thought-2 {
         margin-left: 0;
     }
+
+    .thought.thought-4 {
+        margin-left: 0px;
+    }
+
 }
 
 @media (max-width:768px) {

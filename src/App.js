@@ -9,7 +9,6 @@ function App() {
     <div className="App">
      <Header/>
      <div style={{paddingTop:'0px'}}><Home/></div>
-     <Footer/>
     </div>
   );
 }

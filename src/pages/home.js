@@ -11,8 +11,9 @@ import worksImg2 from '../assets/newImages/Premier.png'
 import worksImg3 from '../assets/newImages/Revel.png'
 import Adventure from '../assets/newImages/adventure.png'
 import CarouselSlider from "./carousel"
-
-
+import Footer from "../component/footer"
+import RightTop from "../assets/newImages/spring-img.png"
+import LefttopImg from '../assets/newImages/yellow-plates.png'
 
 const Home =()=>{
     return(<div className="bg-grey ">
@@ -54,6 +55,7 @@ const Home =()=>{
             <Grid item xs={12} md={4} sm={4} >
                 <div className="box lg-blue ">
                     <div className="card bg-color-for-img lg-blue "> 
+                    <img src={LefttopImg} className="left-top-img" />
                         <img src={playPeers} alt="img not found"/>
                     </div>
                         <h3>Play with Peers</h3>
@@ -72,6 +74,7 @@ const Home =()=>{
                 <Grid item xs={12} md={4} sm={4} >
                 <div className="box lg-pink ">
                     <div className="card bg-color-for-img lg-pink "> 
+                    <img src={RightTop} className="right-top-img" />
                         <img src={playPeers3} alt="img not found"/>
                     </div>
                         <h3>Screen Play Fun</h3>
@@ -98,7 +101,7 @@ const Home =()=>{
                         <Grid container spacing={2} sx={{alignItems:'top'}}>
                                 <Grid item xs={12} md={6} sm={8} className="box-data">
                                     <div className="trust-circle" >
-                                        <h4 className="text-lg-sky">Forge Your Trust Circle:</h4>
+                                        <h4 className="text-lg-sky">Forge Your Trust Circle</h4>
                                         <div className="show-mobile"><img src={playmoParentsImg} alt="img not found"/></div>
                                         <p>Connect with parents that you share your values and parenting style, so parenting can be guilt-free and fun</p>
                                     </div>
@@ -130,7 +133,8 @@ const Home =()=>{
   <div className="section-fourth" id="how-it-works">
     <div className="container">
         <div className="subtitle"><span className="">How it works?</span></div>
-        <Grid container  className="grid-box" >
+     <div className="space">
+     <Grid container  className="grid-box" >
             <Grid item xs={12} md={4} sm={4} >
                 <div className="box box1">
                     <div className="card"> 
@@ -161,6 +165,7 @@ const Home =()=>{
                 </Grid>
               
         </Grid>
+     </div>
     </div>
 
   </div>
@@ -177,6 +182,7 @@ const Home =()=>{
        </div>
     </div>
   </div>
+  <Footer/>
     </div>
     )
 }
