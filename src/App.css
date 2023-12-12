@@ -65,8 +65,8 @@
   height: 100%;
   background-repeat: no-repeat;
   background-size: 100%;
-  padding: 160px 0 160px;
-  background-position: 1px -90px;
+  padding: 160px 0 180px;
+  background-position: 1px -45px;
   min-height: 532px;
 }
 
@@ -656,7 +656,7 @@ h6.MuiTypography-root.MuiTypography-h6 {
 @media (min-width:1440px) {
   .bg-image {
     padding: 228px 0 260px;
-    height: 560px;
+    min-height: 590px;
     /* height: 560px; */
   }
 
@@ -722,7 +722,7 @@ h6.MuiTypography-root.MuiTypography-h6 {
   }
 
   .playmoParents {
-    max-width: 650px;
+    max-width: 700px;
   }
 
   .section-third .playmoParents img {
@@ -804,6 +804,9 @@ h6.MuiTypography-root.MuiTypography-h6 {
   }
 }
 
+.right-side {
+  padding: 0 30px;
+}
 
 @media (max-width:1000px) {
 
