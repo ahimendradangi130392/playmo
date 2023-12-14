@@ -18,6 +18,7 @@ import { styled } from '@mui/material/styles';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+import { Link } from '@mui/material';
 const drawerWidth = 240;
 const navItems = [
   {name:'For Kids',link:'for-kids'},
@@ -84,8 +85,10 @@ function Header(props) {
     >
       Contact Us
     </Button></div>
-      <div className='sign-Up-btn'>
+      <div className='sign-Up-btn '>
+        <Link to="/login">
                 <button>Sign Up</button>
+                </Link>
             </div>
     </Box>
   );
@@ -139,8 +142,10 @@ function Header(props) {
         </MenuItem>
       </StyledMenu>
       </div>
-            <div className='sign-Up-btn'>
+            <div className='sign-Up-btn '>
+            <Link href="/login">
                 <button>Sign Up</button>
+                </Link>
             </div>
           </Box>
           <IconButton

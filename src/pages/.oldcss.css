@@ -1,0 +1,763 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+@font-face {
+    font-family: "crsl-arches";
+    src: url(./assets/CRSL-Arches-Regular.otf) format("truetype");
+}
+
+:root {
+    --lightgray-color: #6D9EA2;
+    --lightYellow-color: #E8D052;
+    /* --lightYellow-color: #FDCE6B; */
+    --lightPink-color: #E4908B;
+    --lightbagni-color: #865473;
+    --lightblack-color: #000;
+}
+
+.bg-image {
+    background-image: url(./assets/newImages/bannerimage.png);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 250px 0
+}
+
+.text-lg-sky {
+    color: var(--lightgray-color);
+}
+
+.text-lg-pink {
+    color: var(--lightPink-color)
+}
+
+.bg-lg-sky {
+    background-color: var(--lightgray-color);
+}
+
+.bg-lg-yellow {
+    background-color: var(--lightYellow-color);
+}
+
+.bg-lg-pink {
+    background-color: var(--lightPink-color)
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+img {
+    width: 100%;
+}
+
+p,
+li,
+button {
+    font-family: 'Poppins';
+}
+
+.header-logo {
+    width: 170px;
+    margin-top: 10px;
+}
+
+.top-header nav {
+    box-shadow: none;
+}
+
+.footer-logo img {
+    max-width: 200px;
+}
+
+.header .MuiToolbar-root {
+    padding: 0;
+    justify-content: space-between;
+}
+
+.top-header button,
+ul li span.css-10hburv-MuiTypography-root {
+    text-transform: capitalize;
+    font-family: 'Poppins';
+    color: var(--lightbagni-color);
+    font-weight: normal;
+    font-size: 0.875rem;
+}
+
+.join-btn {
+    font-family: 'Poppins' !important;
+    background-color: var(--lightbagni-color) !important;
+    text-transform: unset !important;
+    padding: 5px 25px !important;
+    margin-top: 25px !important;
+}
+
+.contact-us button:hover {
+    background-color: transparent;
+    color: var(--lightbagni-color);
+    padding: 10px 8px;
+    font-weight: normal;
+    font-family: 'Poppins';
+    text-transform: capitalize;
+    font-size: 0.875rem;
+}
+
+.contact-us button {
+    background-color: transparent;
+    color: var(--lightbagni-color);
+    padding: 10px 8px;
+    font-weight: normal;
+    font-family: 'Poppins';
+    text-transform: capitalize;
+    font-size: 0.875rem;
+}
+
+.img-how-it-work {
+    /* height: 251px; */
+    overflow: hidden;
+}
+
+.img-how-it-work img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.sign-Up-btn button {
+    background: var(--lightbagni-color);
+    color: #fff;
+    border: 0px;
+    padding: 10px 24px;
+    /* box-shadow: 0px 2px 1px #000000c7; */
+    box-shadow: 1px 5px 1px -3px #000000c7;
+}
+
+.sign-Up-btn {
+    position: relative;
+    padding-left: 20px;
+    margin-left: 15px;
+}
+
+.sign-Up-btn:after {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 24px;
+    background-color: #ddd;
+    left: 0;
+    top: 8px;
+}
+
+.show-mobile {
+    display: none;
+}
+
+h6.MuiTypography-root.MuiTypography-h6 {
+    text-align: center;
+}
+
+.container-fluid {
+    /* max-width: 1024px; */
+    max-width: 1400px;
+    padding: 10px 20px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.container {
+    /* max-width: 1050px; */
+    max-width: 1400px;
+    padding: 10px 20px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.container .MuiPaper-root {
+    padding: 10px 20px;
+}
+
+.subtitle span {
+    background-image: url(./assets/newImages/8.png);
+    height: 100%;
+    background-size: 160px;
+    display: inline-block;
+    background-position: right center;
+    background-repeat: no-repeat;
+    padding: 30px 10px;
+}
+
+.subtitle {
+    font-family: 'Poppins';
+    text-align: center;
+    color: var(--lightbagni-color);
+    /* font-size: 2rem; */
+    font-size: 50px;
+    font-weight: bold !important;
+    margin-bottom: 10px;
+}
+
+.playmo-section {
+    padding-left: 30px;
+}
+
+.playmo-section .doorstep {
+    color: var(--lightgray-color);
+    font-weight: 700;
+    /* font-size: 40px; */
+    font-size: 70px;
+    margin-bottom: 24px;
+    /* line-height: 45px; */
+    line-height: 66px;
+}
+
+.playmo-section .playdates {
+    font-weight: 500;
+    color: black;
+    margin: 25px 0;
+    font-size: 20px;
+    /* font-size: 0.875rem; */
+}
+
+.bg-grey {
+    background-color: #f5f7fa;
+    padding: 10px 0px;
+    width: 100%;
+}
+
+.section-2 .card img {
+    height: 227px;
+    object-fit: cover;
+    border-radius: 25px 25px;
+    z-index: 99;
+    position: relative;
+}
+
+.section-2 .box p {
+    line-height: 16px;
+    margin: 0;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--lightblack-color);
+}
+
+.section-fourth .subtitle {
+    font-weight: 400;
+}
+
+.section-2 h3 {
+    font-size: 44px;
+    /* font-size: 1.875rem; */
+    margin: 0;
+    padding: 10px 0px;
+}
+
+.section-2 .card {
+    max-height: 275px;
+    text-align: center;
+    position: relative;
+    border-radius: 25px 25px;
+    overflow: hidden;
+}
+
+.bg-color-for-img:after {
+    content: "";
+    position: absolute;
+    top: 30px;
+    bottom: 4px;
+    z-index: 0;
+    border-radius: 20px;
+    border: 20px;
+    left: 10px;
+    right: 10px;
+}
+
+
+.lg-blue h3 {
+    color: var(--lightgray-color);
+}
+
+.lg-blue .bg-color-for-img:after {
+    background-color: var(--lightgray-color);
+}
+
+.lg-yellow h3 {
+    color: var(--lightYellow-color)
+}
+
+.lg-yellow .bg-color-for-img:after {
+    background-color: var(--lightYellow-color);
+}
+
+.lg-pink h3 {
+    color: var(--lightPink-color)
+}
+
+.lg-pink .bg-color-for-img:after {
+    background-color: var(--lightPink-color);
+}
+
+.mobile-header {
+    justify-content: center !important;
+}
+
+.mobile-header a {
+    text-decoration: none;
+    color: var(--lightbagni-color);
+    padding: 10px 8px;
+    font-weight: 700;
+    font-family: 'Poppins';
+}
+
+.top-header .container .MuiBox-root {
+    gap: 0 10px;
+    align-items: center;
+}
+
+.section-third {
+    padding-top: 30px;
+    background-image: url(./assets/newImages/ring.png);
+    height: 100%;
+    background-size: 160px;
+    background-position: left top;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.section-third:after {
+    position: absolute;
+    content: "";
+    background-image: url(./assets/newImages/9.png);
+    top: 0;
+    background-size: 160px;
+    background-position: right -40px;
+    background-repeat: no-repeat;
+    right: 0;
+    width: 170px;
+    height: 135px;
+}
+
+.section-third {
+    padding: 60px 0 20px;
+    /* margin-top: 60px; */
+}
+
+.parents h3 {
+    margin: 0;
+    font-size: 2.25rem;
+    font-weight: 600;
+}
+
+.playmoParents {
+    position: relative;
+    /* max-width: 430px; */
+    /* max-width: 500px; */
+    max-width: 650px;
+}
+
+.section-third .playmoParents img {
+    border-radius: 20px;
+    width: 100%;
+    /* max-height: 500px; */
+    max-height: 700px;
+    /* max-height: 560px; */
+    object-fit: cover;
+
+}
+
+.box-data p {
+    line-height: 21px;
+    /* font-size: 0.875rem; */
+    font-size: 18px;
+    color: #333;
+    font-weight: 500;
+}
+
+.box-data img {
+    min-height: 180px;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.box-data h4 {
+    font-size: 40px;
+    line-height: 41px;
+    /* font-size: 1.5rem; */
+    font-weight: 700;
+    margin: 0;
+    font-family: 'Poppins';
+    padding-right: 25px;
+}
+
+/* ***************section-fourth  */
+.section-fourth {
+    padding: 40px 0;
+}
+
+.section-fourth .grid-box {
+    margin-top: -60px;
+    padding-bottom: 60px;
+}
+
+.box1 {
+    padding-top: 10px;
+}
+
+.box2 {
+    padding-top: 20%;
+}
+
+.box3 {
+    padding-top: 60%;
+}
+
+.card h3 {
+    color: var(--lightgray-color);
+    /* font-size: 1.313rem; */
+    font-size: 35px;
+    /* font-size: 1.53rem; */
+    font-weight: 500;
+    margin: 0;
+}
+
+.section-fourth .box p {
+    line-height: 21px;
+    font-weight: 500;
+    font-size: 20px;
+    /* font-size: 0.75rem; */
+    color: var(--lightblack-color);
+    margin: 0;
+    margin-top: 5px;
+}
+
+.space-l {
+    padding-left: 10px;
+}
+
+.section-five {
+    padding: 70px 0 70px;
+}
+
+.section-five .join-section h4 {
+    color: var(--lightgray-color);
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Poppins';
+    line-height: 45px;
+    max-width: 535px;
+}
+
+.section-five .join-section {
+    text-align: center;
+}
+
+/* .section-five .join-section button {
+  background-color: var(--lightbagni-color);
+  color: #fff;
+  padding: 5px 20px;
+  border-radius: 5px;
+  font-weight: 500;
+  margin-top: 50px;
+  font-size: 1rem;
+  text-transform: unset;
+  font-family: 'Poppins';
+} */
+
+.adventure {
+    max-width: 300px;
+    padding: 30px 0px;
+    margin: 0 auto;
+}
+
+.join-section .join-circle {
+    position: relative;
+}
+
+.join-section span.join-circle:after {
+    width: 100%;
+    content: "";
+    position: absolute;
+    background-image: url(./assets/newImages/8.png);
+    left: 0;
+    background-size: 135px;
+    display: inline-block;
+    background-position: right center;
+    background-repeat: no-repeat;
+    padding: 13px 10px;
+    height: 100%;
+    top: -13px;
+    left: -26px;
+}
+
+/* ******************footer*************** */
+.footer ul li {
+    font-size: 0.875rem;
+    font-weight: 400;
+    cursor: pointer;
+    color: #1a1b1f;
+    padding: 5px 0;
+}
+
+.socila-media img {
+    width: 20px;
+}
+
+.socila-media span {
+    border-radius: 50%;
+    padding: 10px;
+    height: 20px;
+    width: 20px;
+}
+
+.socila-media {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    font-weight: 700;
+    font-size: 0.875rem;
+}
+
+
+.footer .copyright p {
+    border-top: 1px solid #e4ebf3;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 0.875rem;
+    color: #333;
+}
+
+.footer li,
+.footer p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sign-Up-btn button {
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+    text-transform: uppercase !important;
+}
+
+@media (min-width: 991px) {
+    .css-1mo60u6-MuiButtonBase-root-MuiIconButton-root {
+        display: none;
+    }
+}
+
+
+
+@media (max-width: 990px) {
+    .trust-circle {
+        max-width: 100%;
+    }
+
+    .section-fourth .grid-box {
+        margin-top: 0px;
+        padding-bottom: 30px;
+    }
+
+    .playmo-section {
+        padding-left: 15px;
+    }
+
+    .css-1mo60u6-MuiButtonBase-root-MuiIconButton-root,
+    .top-header .MuiIconButton-colorInherit {
+        display: block !important;
+    }
+
+    .css-rntpfg {
+        display: none !important;
+    }
+
+    .css-1r7kz78-MuiModal-root-MuiDrawer-root,
+    .MuiDrawer-modal {
+        display: block !important;
+    }
+
+    .contact-us,
+    .sign-Up-btn {
+        text-align: center;
+        padding-bottom: 15px;
+    }
+
+    .right-side img {
+        min-height: 200px;
+        object-fit: cover;
+    }
+}
+
+
+@media (max-width:1000px) {
+
+    .container-fluid,
+    .container {
+        width: auto;
+    }
+
+    .top-header .container {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .main-image {
+        text-align: center;
+        padding: 0 10%;
+    }
+
+    .playmoParents {
+        margin: 0 auto;
+    }
+
+}
+
+.grid-box .css-wg4xta-MuiGrid-root,
+.grid-box .MuiGrid-root.MuiGrid-item {
+    padding: 0 70px 0 0;
+}
+
+@media (max-width:768px) {
+    .section-2 .card img {
+        height: auto;
+    }
+
+    .section-third:after {
+        content: none;
+    }
+
+    .section-2 .card {
+        max-height: 452px;
+    }
+
+    .socila-media {
+        justify-content: center;
+    }
+
+    .space-l {
+        padding-left: 0px;
+    }
+
+    .section-third .right-side {
+        padding: 60px 30px 10px 15px !important;
+    }
+
+    .grid-box .css-wg4xta-MuiGrid-root,
+    .grid-box .MuiGrid-root.MuiGrid-item {
+        padding: 0 15px 30px;
+    }
+
+    .playmo-section {
+        margin-top: 30PX;
+    }
+
+
+    .header-logo {
+        width: 100px;
+    }
+
+    .container {
+        width: auto;
+    }
+
+    .main-image {
+        text-align: center;
+        padding: 0 40px;
+    }
+
+    .playmo-section h3 {
+        text-align: left;
+    }
+
+    .playmo-section {
+        text-align: left;
+    }
+
+    .section-fourth .box {
+        padding: 0 30px;
+    }
+
+    .footer .footer-logo img {
+        width: 200px;
+    }
+
+    .footer .css-1ld3b9g-MuiGrid-root>.MuiGrid-item {
+        text-align: center;
+    }
+
+    .footer h4,
+    .footer li {
+        text-align: center;
+    }
+
+    .section-third .right-side {
+        margin-top: 50px;
+    }
+
+    .playmo-section {
+        padding: 0 30px;
+    }
+
+    .copyright p {
+        padding: 10px 25px 0;
+    }
+
+    .sign-Up-btn {
+        margin-left: 0px;
+    }
+
+    .trust-circle {
+        padding-left: 15px;
+    }
+}
+
+@media (max-width:600px) {
+    .des-show {
+        display: none;
+    }
+
+    .show-mobile {
+        display: block;
+        padding-top: 10px;
+    }
+
+    .footer-logo {
+        text-align: center;
+    }
+}
+
+@media (max-width:467px) {
+    .section-third .right-side {
+        padding: 60px 30px 10px 30px !important;
+    }
+
+    .trust-circle {
+        padding-left: 0px;
+    }
+
+    .des-show {
+        display: none;
+    }
+
+    .section-2 .container {
+        padding: 10px 30px;
+    }
+
+    .main-image {
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    .section-third .right-side {
+        padding: 20px 10px 10px 10px !important;
+    }
+}

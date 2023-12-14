@@ -1,0 +1,181 @@
+:root {
+    --lightgray-color: #6D9EA2;
+    --lightYellow-color: #E8D052;
+    /* --lightYellow-color: #FDCE6B; */
+    --lightPink-color: #E4908B;
+    --lightbagni-color: #865473;
+    --lightblack-color: #000;
+}
+
+.login-page {
+    max-width: 500px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    height: calc(100vh - 100px);
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.login-page-step {
+    max-width: 500px;
+    background-color: #eee;
+    padding: 20px 0px;
+    border-radius: 10px;
+    height: calc(100vh - 100px);
+    min-width: 500px;
+}
+
+.login-container {
+    display: grid;
+    align-items: center;
+    min-height: 100vh;
+    height: 100%;
+    justify-content: center;
+    width: 100%;
+    background-color: #ddd;
+}
+
+.login-page .logo {
+    max-width: 300px;
+}
+
+.term-and-conditions-section {
+    padding-top: 150px
+}
+
+.term-and-conditions-section p {
+    margin: 0 0;
+    text-align: center;
+}
+
+.term-and-conditions {
+    text-decoration: underline;
+    color: var(--lightbagni-color);
+    cursor: pointer;
+}
+
+/* ************* */
+.ragister-section {
+    text-align: center;
+}
+
+.ragister-btn {
+    background-color: var(--lightbagni-color);
+    border-radius: 20px;
+    padding: 10px 20px;
+    box-shadow: none;
+    color: #fff;
+    border: 1px solid var(--lightbagni-color);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+
+}
+
+.top-bar-section p {
+    margin: 0;
+}
+
+.top-bar-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+    align-items: center;
+    background: #fff;
+    margin-bottom: 40px;
+}
+
+.back-btn span {
+    color: var(--lightbagni-color);
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+
+.back-btn {
+    display: flex;
+    align-items: center;
+    gap: 5px
+}
+
+.privacy-policy {
+    padding: 30px 20px;
+    font-size: 0.75rem;
+}
+
+.privacy-policy a {
+    color: #4370ae;
+}
+
+.enter-number {
+    background-color: #ffff;
+}
+
+.nav-tital-text {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.Verify-section {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.otp-box {
+    padding: 0 40px;
+    margin: 20px 0;
+}
+
+.mobileregister fieldset {
+    border: none;
+}
+
+.otp-box input {
+    padding: 16px 5px;
+}
+
+.otp-box fieldset {
+    border: none;
+    border-bottom: 1px solid #909092;
+    border-radius: 0;
+}
+
+a,
+.mobile-number {
+    color: #4370AE;
+    text-decoration: none;
+}
+
+.resend-otp {
+    color: #807F84;
+    font-size: 0.75rem;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.ragister-section p {
+    font-size: 0.813rem;
+}
+
+@media (max-width:768px) {
+
+    .login-page {
+        max-width: 500px;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 0px;
+        height: calc(100vh - 40px);
+    }
+
+    .login-page-step {
+        max-width: 500px;
+        padding: 20px 0px;
+        border-radius: 0px;
+        height: 100%;
+        min-width: 100%;
+
+    }
+}

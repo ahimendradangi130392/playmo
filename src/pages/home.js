@@ -14,9 +14,14 @@ import CarouselSlider from "./carousel"
 import Footer from "../component/footer"
 import RightTop from "../assets/newImages/spring-img.png"
 import LefttopImg from '../assets/newImages/yellow-plates.png'
+import Header from "../component/header"
 
 const Home =()=>{
-    return(<div className="bg-grey ">
+    return(
+        <div className="app">
+            <Header/>       
+    <>
+    <div className="bg-grey ">
   <div className="bg-image">
    <div className="bg-img-first">
    <div className="container-fluid">
@@ -183,6 +188,8 @@ const Home =()=>{
     </div>
   </div>
   <Footer/>
+    </div>
+    </>
     </div>
     )
 }
