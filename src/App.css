@@ -43,7 +43,7 @@
   transform: rotate(180deg);
   background-repeat: no-repeat;
   background-size: 100%;
-  top: 0;
+  top: -36px !important;
   background-position: right top;
   width: 79px;
   right: 0;
@@ -246,6 +246,7 @@ ul li span.css-10hburv-MuiTypography-root {
   color: #fff;
   border: 0px;
   padding: 10px 24px;
+  border-radius: 7px;
   /* box-shadow: 0px 2px 1px #000000c7; */
   /* box-shadow: 1px 5px 1px -3px #000000c7; */
   /* box-shadow: 0.5px 5px 0.5px -4.1px #000000c7; */
@@ -653,6 +654,8 @@ h6.MuiTypography-root.MuiTypography-h6 {
   font-size: 0.75rem;
   letter-spacing: 1px;
   text-transform: uppercase !important;
+  border-radius: 7px;
+
 }
 
 .section-third .subtitle {

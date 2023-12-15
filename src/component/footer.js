@@ -7,27 +7,6 @@ const Footer = () => {
   return (
     <>
       <div className="footer">
-        <div className="socila-media">
-          <span>
-            <a
-              target="_blank"
-              className="bg-lg-sky"
-              href="https://www.instagram.com/withplaymo/"
-            >
-              <img src={Instagram} alt="Instagram" />
-            </a>
-          </span>
-
-          <span>
-            <a
-              target="_blank"
-              className="bg-lg-pink"
-              href="https://www.linkedin.com/company/withplaymo/"
-            >
-              <img src={Linkdin} alt="Linkdin " />
-            </a>
-          </span>
-        </div>
         <div className="container">
           <Grid container spacing={5}>
             <Grid item xs={12} md={4} sm={12} sx={{ alignSelf: "center" }}>
@@ -36,8 +15,29 @@ const Footer = () => {
                 <img src={playmoLogo} alt="logo" />
               </div>
             </Grid>
-            <Grid item xs={12} md={8} sm={12}>
-              <Grid container spacing={5}>
+            <Grid item xs={12} md={4} sm={12}>
+              <div className="socila-media">
+                <span>
+                  <a
+                    target="_blank"
+                    className="bg-lg-sky"
+                    href="https://www.instagram.com/withplaymo/"
+                  >
+                    <img src={Instagram} alt="Instagram" />
+                  </a>
+                </span>
+
+                <span>
+                  <a
+                    target="_blank"
+                    className="bg-lg-pink"
+                    href="https://www.linkedin.com/company/withplaymo/"
+                  >
+                    <img src={Linkdin} alt="Linkdin " />
+                  </a>
+                </span>
+              </div>
+              {/* <Grid container spacing={5}>
                 <Grid item xs={12} md={5} sm={4}>
                   <div>
                     <h4>Company</h4>
@@ -45,12 +45,12 @@ const Footer = () => {
                       <li>
                         <a>How it works</a>
                       </li>
-                      {/* <li><a>Pricing</a></li> */}
-                      {/* <li><a>Docs</a></li> */}
+                      <li><a>Pricing</a></li>
+                      <li><a>Docs</a></li>
                     </ul>
                   </div>
                 </Grid>
-                {/* <Grid item xs={12} md={5} sm={4} >
+                <Grid item xs={12} md={5} sm={4} >
                         <div>
                             <h4>Resources</h4>
                             <ul>
@@ -60,7 +60,7 @@ const Footer = () => {
                                 <li><a>See all resources &gt;  </a></li>
                             </ul>
                         </div>
-                    </Grid> */}
+                    </Grid>
                 <Grid item xs={12} md={5} sm={4}>
                   <div>
                     <h4>About</h4>
@@ -71,7 +71,7 @@ const Footer = () => {
                       <li>
                         <a>Privacy policy</a>
                       </li>
-                      {/* <li className='socila-media'><span className='bg-lg-sky'><a>
+                      <li className='socila-media'><span className='bg-lg-sky'><a>
                                 <img src={Instagram} alt='Instagram' />
                                     </a></span>
                                 <span className='bg-lg-pink'><a>
@@ -80,11 +80,11 @@ const Footer = () => {
                                     </a></span>
                                     <span className='bg-lg-yellow'><a>
                                 <img src={faceBook} alt='faceBook' />                                    
-                                        </a></span></li> */}
+                                        </a></span></li>
                     </ul>
                   </div>
                 </Grid>
-              </Grid>
+              </Grid> */}
             </Grid>
           </Grid>
         </div>

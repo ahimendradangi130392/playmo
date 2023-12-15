@@ -88,7 +88,9 @@ function Header(props) {
         </Button>
       </div> */}
       <div className="sign-Up-btn">
-        <button>Sign Up</button>
+        <a target="_blank" href={`https://vzndp3wy.paperform.co/`}>
+          <button> Sign Up</button>{" "}
+        </a>
       </div>
     </Box>
   );
@@ -145,7 +147,10 @@ function Header(props) {
       </StyledMenu> */}
               </div>
               <div className="sign-Up-btn">
-                <button>Sign Up</button>
+                <a target="_blank" href={`https://vzndp3wy.paperform.co/`}>
+                  {" "}
+                  <button> Sign Up</button>
+                </a>
               </div>
             </Box>
             <IconButton
